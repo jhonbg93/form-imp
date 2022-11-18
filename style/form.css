@@ -10,8 +10,22 @@
 
 .principal{
     display: flex;
-    
+       
 }
+
+.superiorform{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+ .acceder{
+    background-color: #1a73e8;
+    border: none;
+ }
 
 .login{
     display: flex;
