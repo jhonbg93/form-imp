@@ -1,38 +1,51 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.image{
+
+.image {
     width: 514px;
-    height: 757px;
+    height: 514px;
     background-color: #f1cdd7;
 }
 
-.principal{
+.principal {
     display: flex;
-       
+    align-items: center;
+    justify-content: center;
+   
 }
 
-.superiorform{
+.superiorform {
+    position: relative;
     display: flex;
     flex-direction: column;
+    
 }
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
-}
- .acceder{
+}    
+
+.acceder {
     background-color: #1a73e8;
     border: none;
- }
+}
 
-.login{
+.acceder:hover{
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+}
+
+.login {
     display: flex;
     flex-direction: column;
 }
 
-.login{
+.login {
     display: block;
 }
-
