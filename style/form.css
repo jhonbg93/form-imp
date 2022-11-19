@@ -3,9 +3,13 @@
     padding: 0;
 }
 
+h2{
+    text-align: center;
+}
+
 .image {
-    width: 514px;
-    height: 514px;
+    height: 100%;
+    width: 40%;
     background-color: #f1cdd7;
 }
 
@@ -13,24 +17,42 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  
    
 }
+
+.formulario {
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+}   
+
+.or{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.or hr{
+    flex-grow: 1;
+    border: 1px solid #cccc;
+    height: fit-content;
+    margin-top: 6px;
+}
+
+.or span{
+    color: #8b8b8b;
+}
+
+
+
+
 
 .superiorform {
     position: relative;
     display: flex;
     flex-direction: column;
-    
-}
-
-.formulario {
-    display: flex;
-    flex-direction: column;
-}    
-
-.acceder {
-    background-color: #1a73e8;
-    border: none;
+    gap: 10px
 }
 
 .acceder:hover{
@@ -39,6 +61,16 @@
 
 .buttons {
     display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.acceder {
+    background-color: #1a73e8;
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
 }
 
 .login {
